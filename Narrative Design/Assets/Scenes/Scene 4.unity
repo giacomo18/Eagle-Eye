@@ -854,7 +854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Thomas
-  nameColor: {r: 0.9339623, g: 0, b: 0, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: a3b43fb6dbea48848adc458118951afa, type: 3}
@@ -905,7 +905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Antonio
-  nameColor: {r: 0.11894804, g: 0.69234633, b: 0.764151, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 3204fab2480e83543828e224db439245, type: 3}
@@ -1343,6 +1343,7 @@ GameObject:
   - component: {fileID: 1742432748}
   - component: {fileID: 1742432747}
   - component: {fileID: 1742432746}
+  - component: {fileID: 1742432821}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1426,8 +1427,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 281
-    y: 70
+    x: 262.57886
+    y: 75.26315
     width: 84.21054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1437,6 +1438,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1742432742}
   commandList:
+  - {fileID: 1742432821}
   - {fileID: 1742432741}
   - {fileID: 1742432740}
   - {fileID: 1742432820}
@@ -1456,7 +1458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 358.5354, y: -485.2459}
+  scrollPos: {x: 359.8512, y: -402.3512}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -1469,8 +1471,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1742432804}
-  selectedCommands:
-  - {fileID: 1742432746}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1763,7 +1764,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2115731854}
   _visible:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   affectChildren: 1
   visibleOLD: 0
 --- !u!114 &1742432759
@@ -2124,7 +2125,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 2116280779}
   _visible:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   affectChildren: 1
   visibleOLD: 0
 --- !u!114 &1742432776
@@ -3188,6 +3189,28 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1742432821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742432739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 78
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
 --- !u!1 &1943168651
 GameObject:
   m_ObjectHideFlags: 0

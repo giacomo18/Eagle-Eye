@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Matteo
-  nameColor: {r: 0.7644346, g: 0.8584906, b: 0.16602883, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 0e2b5063edc420f40983cd2d9cfecb46, type: 3}
@@ -382,6 +382,7 @@ GameObject:
   - component: {fileID: 950347995}
   - component: {fileID: 950347994}
   - component: {fileID: 950348003}
+  - component: {fileID: 950348004}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -429,6 +430,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 950347966}
   commandList:
+  - {fileID: 950348004}
   - {fileID: 950347971}
   - {fileID: 950347993}
   - {fileID: 950347985}
@@ -461,7 +463,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 950347997}
   selectedCommands:
-  - {fileID: 950348003}
+  - {fileID: 950347996}
   variables: []
   description: 
   stepPause: 0
@@ -612,9 +614,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 950347986}
+  - {fileID: 950348000}
   - {fileID: 950347990}
   - {fileID: 950347989}
-  - {fileID: 950348000}
   suppressAllAutoSelections: 0
 --- !u!114 &950347975
 MonoBehaviour:
@@ -982,7 +984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 567.8846
+    x: 566.6188
     y: 558.5339
     width: 86.70885
     height: 40
@@ -1036,7 +1038,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &950347994
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1060,7 +1062,7 @@ MonoBehaviour:
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &950347995
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1072,8 +1074,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: I trust you are a good person, but if anything was to happen to the
-    money under your care, everything you love will be taken away from you.
+  storyText: '{vpunch=10,0.5}I trust you are a good person, but if anything was to
+    happen to the money under your care, everything you love will be taken away from
+    you.'
   description: 
   character: {fileID: 146606256}
   portrait: {fileID: 21300000, guid: 0e2b5063edc420f40983cd2d9cfecb46, type: 3}
@@ -1088,7 +1091,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &950347996
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1121,7 +1124,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 567.5572
-    y: 625.2357
+    y: 627.76733
     width: 86.70885
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1254,7 +1257,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &950348003
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1271,6 +1274,28 @@ MonoBehaviour:
     stringVal: Scene 3
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &950348004
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950347965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b115619cb83b4d6ab8047d0e9407403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  isStartPoint: 0
+  keyMode: 0
+  customKey: 
+  keySeparator: _
+  descriptionMode: 0
+  customDescription: 
+  fireEvent: 1
+  resumeOnLoad: 1
 --- !u!1 &1075272680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,7 +1781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Antonio
-  nameColor: {r: 0.11894804, g: 0.69234633, b: 0.764151, a: 1}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 3204fab2480e83543828e224db439245, type: 3}
