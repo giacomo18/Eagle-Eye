@@ -1,0 +1,18 @@
+{
+  "version": "3.0.0",
+  "aspectRatio": "2.39",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "35FZD",
+      "url": "board-1-35FZD.png",
+      "newShot": false,
+      "lastEdited": 1660111029136,
+      "layers": {},
+      "number": 1,
+      "shot": "1A",
+      "time": 0
+    }
+  ]
+}
